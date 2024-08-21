@@ -1,0 +1,23 @@
+# ------ root_path/dataset_name ------
+root_path: './data'
+
+seed: 3407
+
+# ------ Hyperparamters ------
+
+init_beta: 1
+init_alpha: 5
+init_beta2: 0
+init_alpha2: 0
+init_lambda: 0.6
+
+eps: 0.001 # 0.01 for 1/2-shot, 0.001 for others
+training_feat_num: 512
+training_free_feat_num: 512
+
+# ------ Basic Config ------
+dataset: 'jittor_dataset'
+
+lr: 0.0001
+augment_epoch: 20
+train_epoch: 50
